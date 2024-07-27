@@ -1,0 +1,13 @@
+.active_link, .inactive_link {
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.active_link {
+    color: var(--navbar-active-link-color);
+}
+
+.inactive_link {
+    color: var(--navbar-inactive-link-color);
+}
