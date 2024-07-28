@@ -1,18 +1,18 @@
 :root {
   --page-background: #EFEFEF;
   --page-text-color: #1c1c1c;
-  --navigation-background: #ffffff;
+  --navigation-background: #1c1c1c;
   --navigation-text-color: #adadad;
-  --navigation-alt-text-color: #2d2d2d;
+  --navigation-alt-text-color: #ffffff;
   --profile-picture-box-background: #723b45;
-  --navbar-active-link-color: var(--navigation-alt-text-color);
-  --navbar-inactive-link-color: var(--navigation-text-color);
+  --navbar-active-link-color: #ffffff;
+  --navbar-inactive-link-color: #adadad;
 
   --table-header-background: #E1E1E1;
-  --table-header-color: var(--navigation-alt-text-color);
+  --table-header-color: #2d2d2d;
   --table-border: var(--table-header-background);
   --table-row-background: #FFFFFF;
-  --table-row-color: var(--navigation-alt-text-color);
+  --table-row-color: #2d2d2d;
 }
 
 * {

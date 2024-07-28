@@ -19,10 +19,10 @@ export default function RootLayout(properties: Readonly<{
     <html lang="en">
       <body className={ roboto.className }>
         <FoodProvider>
-          <NavigationBar />
           <div className="page-content">
             { properties.children }
           </div>
+          <NavigationBar />
         </FoodProvider>
       </body>
     </html>
