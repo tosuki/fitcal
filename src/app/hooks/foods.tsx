@@ -18,8 +18,8 @@ export type FoodContextProperties = {
     foods: FoodCache[]
     dispatchers: {
         setWeight: (id: number, weight: number) => unknown,
-        deleteFood: (id: number) => unknown
         addFood: (food: FoodCache) => unknown
+        setFoods: (food: FoodCache[]) => unknown
     }
 }
 
@@ -50,8 +50,9 @@ export const FoodProvider = (properties: { children: ReactNode }) => {
         const result = findableArray.deleteElement((element) => {
             return element.id === id
         }, cachedFoods)
-
+        
         if (result) {
+            console.log("Deleting ", id)
             setCachedFoods(result)
         }
     }, [cachedFoods])
@@ -62,7 +63,7 @@ export const FoodProvider = (properties: { children: ReactNode }) => {
                 foods: cachedFoods,
                 dispatchers: {
                     setWeight,
-                    deleteFood,
+                    setFoods: setCachedFoods,
                     addFood: (food: FoodCache) => {
                         setCachedFoods([...cachedFoods, food])
                     }

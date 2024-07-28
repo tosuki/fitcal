@@ -5,7 +5,7 @@ import { useFood } from "../../../hooks/foods"
 import { foods as tacoBaseNumbers } from "../../../lib/data/placeholder"
 import arrayUtils from "../../../lib/array"
 
-import Modal, { ModalProperties } from "../"
+import Modal, { ModalProperties } from ".."
 
 import styles from "./addFood.module.css"
 

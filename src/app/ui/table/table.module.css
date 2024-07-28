@@ -2,6 +2,8 @@
     border-collapse: collapse;
     border: 1px solid var(--table-border);
 
+    background-color: var(--table-header-background);
+
     font-size: 1.2rem;
     width: 100%;
 }

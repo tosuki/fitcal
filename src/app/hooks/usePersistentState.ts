@@ -29,7 +29,9 @@ export default function usePersistentState <T> (key: string, defaultValue: T): P
     })
 
     useEffect(() => {
+        console.log(`The state changed`, window.localStorage.getItem(key))
         window.localStorage.setItem(key, JSON.stringify(temporaryState))
+        console.log("New state:", window.localStorage.getItem(key))
     }, [temporaryState])
 
     return [temporaryState, setTemporaryState]

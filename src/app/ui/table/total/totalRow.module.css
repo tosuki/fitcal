@@ -1,8 +1,6 @@
 .table_row_header, .table_row {
-    background-color: var(--table-row-background);
+    background-color: var(--table-header-background);
     color: var(--table-row-color);
-
-    margin-top: 10px;
 }
 
 .table_row_cell {

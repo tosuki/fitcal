@@ -3,11 +3,11 @@ import { Food } from "./Food"
 export const foods: Food[] = [
     {
         id: 1,
-        name: "Arroz",
-        carbohydrates: 0,
+        name: "Arroz tipo 1, cozido",
+        carbohydrates: 0.28,
         fat: 0,
-        protein: 0,
-        calories: 0,
+        protein: 0.03,
+        calories: 1.28,
     },
     {
         id: 2,
@@ -56,5 +56,13 @@ export const foods: Food[] = [
         protein: 0.65,
         fat: 0.0475,
         name: "Whey Protein (Shark Pro)"
+    },
+    {
+        id: 8,
+        calories: 0.33,
+        carbohydrates: 0.08,
+        protein: 0.01,
+        fat: 0,
+        name: "Melancia crua",
     }
 ]
