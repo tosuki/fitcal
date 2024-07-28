@@ -42,6 +42,7 @@ export default function AddFoodModal(properties: AddFoodModalProperties) {
             })
         }
         
+        setFoodID(-1)
         properties.modal.setOpen(false)
     }
 
