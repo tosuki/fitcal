@@ -21,6 +21,6 @@ After you have installed the dependencies, you can run the app in development mo
 
 
 ### How to add more foods?
-If you have cloned t his repo and tried the website, you may have noticed that there aren't many foods registered in the app. This is because i'm lazy :D. However, feel free to add more foods information to the `src/app/lib/data/placeholder.ts`. The base numbers are based on 1g portion of the food. So if a food has `120` calories per `100g`, you have to put in the calories property `1.2`.
+If you have cloned this repo and tried to use the website, you may have noticed that there aren't many foods registered in the app. This is because i'm lazy :D. However, feel free to add more foods information to the `src/app/lib/data/placeholder.ts`. The base numbers are based on 1g portion of the food. So if a food has `120` calories per `100g`, you have to put in the calories property `1.2`.
 
 <img src="./assets/example2.png">

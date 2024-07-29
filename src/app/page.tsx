@@ -15,7 +15,7 @@ export default function AppPage() {
   return (
     <div className={ styles.container }>
       <div className={ styles.info_space }>
-        <h1>Alimentos</h1>
+        <h1>Foods</h1>
         <button
           className={ styles.button_container }
           onClick={() => setAddFoodModalOpen(!isAddFoodModalOpen)}

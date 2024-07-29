@@ -4,9 +4,9 @@ export const foods: Food[] = [
     {
         id: 1,
         name: "Arroz tipo 1, cozido",
-        carbohydrates: 0.3,
+        carbohydrates: 0.28,
         fat: 0,
-        protein: 0.27,
+        protein: 0.03,
         calories: 1.28,
     },
     {
@@ -81,4 +81,20 @@ export const foods: Food[] = [
         fat: 0.12,
         name: "Melancia crua",
     },
+    {
+        id: 10,
+        calories: 2.12,
+        carbohydrates: 0,
+        protein: 0.27,
+        fat: 0.2,
+        name: "Carne bovina, acém, moído, cozido",
+    },
+    {
+        id: 11,
+        calories: 3.6,
+        carbohydrates: 0.31,
+        protein: 0.33,
+        fat: 0.15,
+        name: "Barrinha da Bold (grande)"
+    }
 ]
